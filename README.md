@@ -22,7 +22,7 @@ import cassiopeia as cass
 
 summoner = cass.get_summoner(name="Kalturi")
 print("{name} is a level {level} summoner on the {region} server.".format(name=summoner.name,
-                                                                          level=summoner.level
+                                                                          level=summoner.level,
                                                                           region=summoner.region))
 
 champions = cass.get_champions()
